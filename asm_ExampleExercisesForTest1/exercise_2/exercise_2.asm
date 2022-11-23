@@ -8,16 +8,21 @@ public _main
 
 .code
 _main PROC
-	xor ebx, ebx	; clear ebx
+	call	prepare
 
-	mov bh, 11
-	xor bh, 15
+	mov		bh, 11
+	xor		bh, 15
 	; ebx = 0000 0400
 	; bh = 04
 	; answer = 4
 
-	push dword PTR 0
-	call _ExitProcess@4
+	push	dword PTR 0
+	call	_ExitProcess@4
 _main ENDP
+
+prepare PROC
+	xor		ebx, ebx
+	ret
+prepare ENDP
 
 END
