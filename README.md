@@ -28,3 +28,7 @@ How to create new project
 			call _ExitProcess@4
 		_main ENDP
 		END
+
+
+If you want to add project in test scope you have to copy folder with existing project from that test and than paste it and change files names.
+Adding project to scope not working correctly.
