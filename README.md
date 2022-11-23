@@ -5,7 +5,7 @@ How to create new project
 
 - Build Dependencies -> Build Customizations -> masm
 
-- Add -> NewItem -> <filename>.asm
+- Add -> NewItem -> \<filename\>.asm
 
 - Set Debug & x86
 
