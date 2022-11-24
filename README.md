@@ -10,6 +10,7 @@ How to create new project
 - Set Debug & x86
 - Properties -> Linker -> Command Line -> "libcmt.lib"
 - Add code:
+		
 		.686
 		.model flat
 
