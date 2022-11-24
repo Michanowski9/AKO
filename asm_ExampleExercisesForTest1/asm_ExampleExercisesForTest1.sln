@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_02", "exercise_2\exercise_2.vcxproj", "{163C2A79-2FEE-4F49-8B7F-610B1119439E}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_03", "exercise_3\exercise_3.vcxproj", "{DF754916-3ABD-429D-8CD0-6B86ABA2A827}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_06", "exercise_6\exercise_6.vcxproj", "{9FCA081D-008F-4F74-98C1-A196C3224584}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_07", "exercise_7\exercise_7.vcxproj", "{A66048D6-98A8-4FB9-AB04-C17F5822BE89}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_08", "exercise_8\exercise_8.vcxproj", "{69742BC9-AE91-4EBF-9750-AD8470F99234}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_09", "exercise_9\exercise_9.vcxproj", "{9E8E47A1-3693-48D5-8023-61130F7F4A97}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_10", "exercise_10\exercise_10.vcxproj", "{42C0F791-7013-49A3-A29B-0162D44D5C57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_02", "exercise_02\exercise_02.vcxproj", "{163C2A79-2FEE-4F49-8B7F-610B1119439E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_03", "exercise_03\exercise_03.vcxproj", "{DF754916-3ABD-429D-8CD0-6B86ABA2A827}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_06", "exercise_06\exercise_06.vcxproj", "{9FCA081D-008F-4F74-98C1-A196C3224584}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_07", "exercise_07\exercise_07.vcxproj", "{A66048D6-98A8-4FB9-AB04-C17F5822BE89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_08", "exercise_08\exercise_08.vcxproj", "{69742BC9-AE91-4EBF-9750-AD8470F99234}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercise_09", "exercise_09\exercise_09.vcxproj", "{9E8E47A1-3693-48D5-8023-61130F7F4A97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +25,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x64.ActiveCfg = Debug|x64
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x64.Build.0 = Debug|x64
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x86.ActiveCfg = Debug|Win32
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x86.Build.0 = Debug|Win32
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x64.ActiveCfg = Release|x64
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x64.Build.0 = Release|x64
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x86.ActiveCfg = Release|Win32
+		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x86.Build.0 = Release|Win32
 		{163C2A79-2FEE-4F49-8B7F-610B1119439E}.Debug|x64.ActiveCfg = Debug|x64
 		{163C2A79-2FEE-4F49-8B7F-610B1119439E}.Debug|x64.Build.0 = Debug|x64
 		{163C2A79-2FEE-4F49-8B7F-610B1119439E}.Debug|x86.ActiveCfg = Debug|Win32
@@ -73,14 +81,6 @@ Global
 		{9E8E47A1-3693-48D5-8023-61130F7F4A97}.Release|x64.Build.0 = Release|x64
 		{9E8E47A1-3693-48D5-8023-61130F7F4A97}.Release|x86.ActiveCfg = Release|Win32
 		{9E8E47A1-3693-48D5-8023-61130F7F4A97}.Release|x86.Build.0 = Release|Win32
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x64.ActiveCfg = Debug|x64
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x64.Build.0 = Debug|x64
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x86.ActiveCfg = Debug|Win32
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Debug|x86.Build.0 = Debug|Win32
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x64.ActiveCfg = Release|x64
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x64.Build.0 = Release|x64
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x86.ActiveCfg = Release|Win32
-		{42C0F791-7013-49A3-A29B-0162D44D5C57}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

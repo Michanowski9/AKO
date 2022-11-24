@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="exercise_8.asm">
+    <MASM Include="exercise_08.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
