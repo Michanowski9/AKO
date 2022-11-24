@@ -15,8 +15,8 @@ _main PROC
 	; answer:
 	call	prepare
 	push	eax
-	mov		eax, esi
 
+	mov		eax, esi
 	and		eax, edi	; eax := esi and edi
 	or		esi, edi	; esi := esi or edi 
 	sub		esi, eax	; esi := (esi or edi) - (esi and edi)
